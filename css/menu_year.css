@@ -1,0 +1,93 @@
+/*стиль для временной навигации*/
+
+.menu_year {
+	width: 100%;   				/*ширина*/
+	/*height: 20px; */
+	margin: 0;                   /*отступ от каждого края элемента*/
+	padding-top: 6px;        /*поля вокруг содержимого элемента*/
+	padding-bottom: 6px;        /*поля вокруг содержимого элемента*/
+	border-left-width: 1px;         /*Устанавливает толщину границы слева от элемента.*/
+	border-top-width: 0px;          /*Устанавливает толщину границы сверху элемента.*/
+	border-right-width: 0px;        /*Устанавливает толщину границы справа от элемента.*/
+	border-bottom-width: 0px;       /*Устанавливает толщину границы внизу элемента.*/
+	border-left-style: none;       /*Устанавливает стиль границы слева от элемента.*/
+	border-top-style: none;        /*Устанавливает стиль границы сверху элемента.*/
+	border-right-style: none;      /*Устанавливает стиль границы справа от элемента.*/
+	border-bottom-style: solid;     /*Устанавливает стиль границы внизу от элемента.*/
+	border-left-color: #ECDF64;     /*Задает цвет границы слева элемента.*/
+}
+
+.menu_year ul {
+	list-style: none;  /*задать стиль маркера, его положение, а также изображение*/
+    margin: 0;         /*отступ от каждого края элемента*/
+	padding: 0;        /*поля вокруг содержимого элемента*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;  /*семейство шрифта*/
+	font-size: 14px;  /*размер шрифта элемента*/
+	font-style: normal; /*начертание шрифта — обычное, курсивное или наклонное*/
+	font-weight: bold;  /*насыщенность шрифта*/
+	text-decoration: none; /*оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания*/
+	}
+
+.menu_year ul li {
+  display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_year a:link.special, .menu_year a:visited.special {
+  color: #008C46;
+}
+
+.menu_year li a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;          /*оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания*/
+	border-top-width: 1px;          /*Устанавливает толщину границы сверху элемента.*/
+	border-right-width: 1px;        /*Устанавливает толщину границы справа от элемента.*/
+	border-left-width: 0px;       /*Устанавливает толщину границы внизу элемента.*/
+	border-bottom-width: 1px;       /*Устанавливает толщину границы внизу элемента.*/
+
+	border-top-style: solid;         /*Устанавливает стиль границы сверху элемента.*/
+	border-right-style: solid;       /*Устанавливает стиль границы справа от элемента.*/
+    border-left-style: none;
+    border-bottom-style: solid;     /*Устанавливает стиль границы внизу от элемента.*/
+
+	border-top-color: #ECDF64;      /*Задает цвет границы сверху элемента.*/
+	border-right-color: #ECDF64;    /*Задает цвет границы справа элемента.*/
+	border-bottom-color: #ECDF64;   /*Задает цвет границы снизу элемента.*/
+}
+.menu_year li a:link, .menu_year li a:visited {
+	color: #000000;                  /*цвет текста элемента.*/
+	background-color: #FFFAD4;       /*цвет фона элемента*/
+	padding-top: 6px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 10px;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 6px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 10px;              /*поле от левого края содержимого элемента*/
+	}
+
+.menu_year li a:hover {
+	color: #FF3300;                  /*цвет текста элемента.*/
+	background-color:  #DFF2BF;            /*характеристика фона*/
+	padding-top: 6px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 10px;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 6px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 10px;              /*поле от левого края содержимого элемента*/
+	}
+.hint {
+    /*width: 50%;   */
+    height: 15px;
+    display: inline;
+    margin: 20px 10px 10px 0px;
+    padding: 6px;
+    border: #ECDF64 solid 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;  /*семейство шрифта*/
+	font-size: 12px;  /*размер шрифта элемента*/
+    font-weight: 400;
+    background-color: #FFFAD4;       /*цвет фона элемента*/
+
+}
+
+.hint span {
+  color: #CC0000;
+  font-weight: 600;
+}

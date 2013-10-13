@@ -1,0 +1,220 @@
+.menu_input {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*стиль для главного меню*/
+
+#menu_transfer {
+	width: 100%;   				/*ширина*/
+	/*height: 100%;*/
+	margin: 0;                   /*отступ от каждого края элемента*/
+	border-top-width: 1px;          /*Устанавливает толщину границы сверху элемента.*/
+	border-right-width: 1px;        /*Устанавливает толщину границы справа от элемента.*/
+	border-bottom-width: 1px;       /*Устанавливает толщину границы внизу элемента.*/
+	border-left-width: 1px;         /*Устанавливает толщину границы слева от элемента.*/
+	border-top-style: solid;        /*Устанавливает стиль границы сверху элемента.*/
+	border-right-style: solid;      /*Устанавливает стиль границы справа от элемента.*/
+	border-bottom-style: solid;     /*Устанавливает стиль границы внизу от элемента.*/
+	border-left-style: solid;       /*Устанавливает стиль границы слева от элемента.*/
+	border-top-color: #006600;      /*Задает цвет границы сверху элемента.*/
+	border-right-color: #006600;    /*Задает цвет границы справа элемента.*/
+	border-bottom-color: #006600;   /*Задает цвет границы снизу элемента.*/
+	border-left-color: #006600;     /*Задает цвет границы слева элемента.*/
+	}
+
+#menu_transfer ul {
+	list-style: none;  /*задать стиль маркера, его положение, а также изображение*/
+	margin: 0;         /*отступ от каждого края элемента*/
+	padding: 0;        /*поля вокруг содержимого элемента*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;  /*семейство шрифта*/
+	font-size: 12px;  /*размер шрифта элемента*/
+	font-style: normal; /*начертание шрифта — обычное, курсивное или наклонное*/
+	font-weight: bold;  /*насыщенность шрифта*/
+	text-decoration: none; /*оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания*/
+	}
+
+#menu_transfer li a {
+	margin: 0;
+	padding: 0;
+	display: block;                  /*блочный элемент*/
+	text-decoration: none;          /*оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания*/
+	border-top-width: 0px;          /*Устанавливает толщину границы сверху элемента.*/
+	border-right-width: 0px;        /*Устанавливает толщину границы справа от элемента.*/
+	border-bottom-width: 1px;       /*Устанавливает толщину границы внизу элемента.*/
+	border-left-width: 0px;         /*Устанавливает толщину границы слева от элемента.*/
+	border-top-style: none;         /*Устанавливает стиль границы сверху элемента.*/
+	border-right-style: none;       /*Устанавливает стиль границы справа от элемента.*/
+	border-bottom-style: solid;     /*Устанавливает стиль границы внизу от элемента.*/
+	border-left-style: none;        /*Устанавливает стиль границы слева от элемента.*/
+	border-bottom-color: #006600;   /*Задает цвет границы снизу элемента.*/
+}
+
+#menu_transfer .end_menu_transfer {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	}
+
+#menu_transfer li a:link, #menu_transfer li a:visited {
+	color: #FFFFFF;                  /*цвет текста элемента.*/
+	display: block;                  /*блочный элемент*/
+	background-color: #008040;       /*цвет фона элемента*/
+	padding-top: 6px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 0;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 6px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 10px;              /*поле от левого края содержимого элемента*/
+	}
+
+#menu_transfer li a:hover {
+	color: #FFFF00;                  /*цвет текста элемента.*/
+	background:  #008000;            /*характеристика фона*/
+	padding-top: 6px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 0;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 6px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 10px;              /*поле от левого края содержимого элемента*/
+	}
+
+/*конец стиля для меню*/
+
+.menu_object {
+    width: 500px;
+    /*height: 400px;*/
+    list-style: none;
+    margin: 30px 0px 30px 0px;
+    padding: 0px;
+   	font-family: Verdana, Arial, Helvetica, sans-serif;  /*семейство шрифта*/
+	font-size: 14px;  /*размер шрифта элемента*/
+	font-style: normal; /*начертание шрифта — обычное, курсивное или наклонное*/
+	font-weight: bold;  /*насыщенность шрифта*/
+	text-decoration: none; /*оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания*/
+    	/* Скругленные углы */
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+   	-moz-box-shadow:inset 0px 0px 1px #edf9ff;
+	-webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+	box-shadow:inset 0px 0px 1px #edf9ff;
+
+
+}
+.menu_object li {
+  display: block;
+  position: relative;
+}
+
+.menu_object li:hover {
+    background: #66FFCC;       /*цвет фона элемента*/
+}
+
+
+
+.menu_object li a {
+/*  display: block;  */
+/*  position: relative;  */
+/*  margin:0;
+  padding: 0;*/
+  display: block;                  /*блочный элемент*/
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #6699CC;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #6699CC;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #6699CC;
+
+}
+
+.report1,
+.report2,
+.report3,
+.report4,
+.report5,
+.report6,
+.report7,
+.report8,
+.report9,
+.report10,
+.report11,
+.report_performance,
+.report_norma {
+    background: -moz-linear-gradient(top, #C0E4FF, #66CCFF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C0E4FF), to(#66CCFF));
+    background-color: #C0E4FF;
+
+    z-index: 1;
+    padding: 5px;
+    border: #6699CC 1px solid;
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    position: absolute;
+    left: 499px;
+    top: 0px;
+    display: none;
+
+}
+
+
+.report1 { width: 500px;}
+.report2 { width: 550px;}
+.report3 { width: 500px;}
+.report4 { width: 500px;}
+.report5 { width: 450px;}
+.report6 { width: 550px;}
+.report7 { width: 300px;}
+.report8 { width: 300px;}
+.report9 { width: 500px;}
+.report10 { width: 300px;}
+.report11 { width: 500px;}
+.report_performance{width: 400px;}
+.report_norma{width: 200px;}
+	
+.menu_object .beginMenu {
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #6699CC;
+}
+
+.menu_object .endMenu {
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.menu_object li a:link, .menu_object li a:visited {
+	display: block;                  /*блочный элемент*/
+	background-color: #66CCFF;       /*цвет фона элемента*/
+	padding-top: 10px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 0;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 10px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 20px;              /*поле от левого края содержимого элемента*/
+    color: #000066;
+	}
+
+.menu_object li a:hover {
+    background-color: #66FFCC;
+	padding-top: 10px;                /*поле от верхнего края содержимого элемента*/
+	padding-right: 0;                /*поле от правого края содержимого элемента*/
+	padding-bottom: 10px;             /*поле от нижнего края содержимого элемента*/
+	padding-left: 20px;              /*поле от левого края содержимого элемента*/
+    color: #FF0000;
+}
+
+
+

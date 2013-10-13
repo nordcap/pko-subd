@@ -1,0 +1,2 @@
+[12-Jun-2010 19:54:46] PHP Warning:  include_once(js/jscript.js) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\data\PKO-SUBD12\Sapr\input.php on line 18
+[12-Jun-2010 19:54:46] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'js/jscript.js' for inclusion (include_path='.;C:\php5\pear') in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\data\PKO-SUBD12\Sapr\input.php on line 18

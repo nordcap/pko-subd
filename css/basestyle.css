@@ -1,0 +1,111 @@
+@import url("error.css");
+@import url("menu.css");
+@import url("menu_year.css");
+
+
+#auth{
+    margin: auto;
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+
+#countdown {
+  color: #FFFFCC;
+  font-size: 14pt;
+  text-align: right;
+}
+
+.legend {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.menu {
+border: 2px /* Толщина рамки в пикселах */
+solid /* Тип границы (в данном случае сплошная линия) */
+#00D96C; /* Цвет линии*/
+padding: 0px; /* Расстояние от текста до рамки */
+
+}
+
+HR {
+ border: none; /* Убираем границу для браузера Firefox */
+ color: #008C46; /* Цвет линии для браузера Internet Explorer */
+ background-color: #008C46; /* Цвет линии для браузера Firefox и Opera */
+ height: 2px; /* Толщина линии */
+}
+
+A {
+ text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+
+
+.selectMonthYear {
+	width: 100px; /* ширина месяца,года=100 */
+}
+
+.selectDO {
+	width: 100px; /* ширина отдела, бюро=100 */
+}
+.selectCustomer {
+	width: 200px; /* ширина отдела, бюро=100 */
+}
+
+#img_pu {
+ border:
+  2px /* Толщина рамки */
+  #008C46 /* Цвет границы */
+  double; /* Сплошная линия */
+  background: #FFFFFF;
+}
+.tableReport {
+   background: #C0E4FF;
+   background: -moz-linear-gradient(top, #C0E4FF, #66CCFF);
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#C0E4FF), to(#66CCFF));
+}
+
+tr.line{
+	background: #fc0;
+	color: #333;
+}
+
+.split {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+
+}
+
+.fldset {
+    margin: 5px;
+}
+
+
+
+
+input[type="text"],  input[type="password"], select, textarea{
+  border: 1px solid #4682B4;
+}
+
+
+.size1 {
+  width: 100px;
+}
+
+.size2 {
+  width: 200px;
+}
+
+.size5 {
+  width: 500px;
+}
+
+.g-2 {
+  width: 140px;
+}
